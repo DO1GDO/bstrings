@@ -95,7 +95,7 @@ internal class Program
             DefaultValueFactory = _ => true
         };
 
-        var uOpt = new Option<bool>("-a")
+        var uOpt = new Option<bool>("-u")
         {
             Description = "If set, look for Unicode strings. Use -u false to disable",
             DefaultValueFactory = _ => true
